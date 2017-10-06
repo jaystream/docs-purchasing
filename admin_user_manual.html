@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>eXWeb - CodeIgniter Purchasing System</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/scrolling-nav.css" rel="stylesheet">
+    <style type="text/css">
+        img{
+            width: 100%;
+        }
+        .img-container{
+            border: 1px solid black;
+        }
+        p, li{
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">eXWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#intro">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#scope">Scope of Purchasing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#purpose">Purpose</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#manual">Manual</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to CodeIgniter Purchasing System</h1>
+        <p class="lead text-center">Documentation By: Abby Luera <small>(abby@extremewebevolution.com)</small></p>
+      </div>
+    </header>
+
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Introduction</h2>
+            <p class="lead">Codeigniter Purchasing system is a web-based platform that helps businesses of all sizes elevate their entire procurement process to better manage requisitions, generate purchase orders, and monitor spending with full visibility and control into their respective purchase cycle. It has seamless flow of data and customized workflows. Automating the purchasing functions can make your company competitive in its industry to not be merely transactional but strategic enough to transform the way you do business.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scope">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Scope of Purchasing</h2>
+            <p class="lead">Each employee plays an active role in the purchasing function. Many of them requisition goods and services, while others are directly involved in the purchase of such goods and services. Most of what they use in their daily work, from the paper they write on to the wax on the floors has been acquired through Purchasing. Since everyone is involved in purchasing, the Purchasing Department, in accordance with their own existing policies will determine and clarify what is expected of each involved in the purchase of goods and services.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="purpose">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Purpose of the Purchasing Guide</h2>
+            <p class="lead">This section should be used as a guide by all employees, when requisitioning, purchasing, receiving or approving, payment for goods and services. Statements of purchasing policies and objectives, responsibilities of various individuals and departments, and procedures for the performance of some of the major purchasing functions is the responsibility of the company to disseminate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="manual">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <hr />
+                    <strong>Admin/Board Dashboard</strong>
+
+                    <div class="row">
+                        <div class="img-container col-md-12">
+                            <h5>Figure 1. - Admin Dashboard</h5>
+                            <img src="assets/images/dashboard.png">
+                        </div>
+                    </div>
+
+                    <br />
+                    <div class="row">
+                        <div class="col-md-9">
+                            <ol>
+                                <li>Number of newly created request.</li>
+                                <li>Request currently in the Head/Recommending approval.</li>
+                                <li>Request currently canvassing.</li>
+                                <li>Request currently in the budget approval</li>
+                                <li>Shows the graph of the request</li>
+                                <li>Users currently have an ongoing request</li>
+                                <li>Hide/Show side bar menu</li>
+                                <li>Top navigation – Figure 1.1
+                                    <ol>
+                                        <li>Profile</li>
+                                        <li>Settings</li>
+                                        <li>Help</li>
+                                        <li>Logout</li>
+                                    </ol>
+                                </li>
+                                <li>Side bar menu – Figure 1.2</li>
+                            </ol>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-container col-md-12">
+                                <h5>Figure 1.1 – Top Navigaton</h5>
+                                <img src="assets/images/top_navigation.png">
+                            </div>
+                        </div>
+                    </div>
+
+                    <br />
+                    <strong>Sidebar Menu</strong>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <ol>
+                                <li>Dashboard</li>
+                                <li>Purchases Order</li>
+                                <li>Request
+                                    <ol>
+                                        <li>Request List</li>
+                                        <li>Request New</li>
+                                        <li>Archived</li>
+                                    </ol>
+                                </li>
+                                <li>Head Approval</li>
+                                <li>Board Approval</li>
+                                <li>Transaction History</li>
+                                <li>Reports
+                                    <ol>
+                                        <li>Request Reports</li>
+                                        <li>Item Reports</li>
+                                        <li>PO Reports</li>
+                                    </ol>
+                                </li>
+                                <li>Settings
+                                    <ol>
+                                        <li>General Settings</li>
+                                        <li>Email Messages</li>
+                                        <li>Users</li>
+                                        <li>User Group/User Type</li>
+                                        <li>Department</li>
+                                        <li>Branches</li>
+                                        <li>Supplier</li>
+                                        <li>Products</li>
+                                        <li>Product Category</li>
+                                        <li>Request Category</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                            <div class="img-container col-md-12">
+                                <i>Note: The number at the right side of the menu means a certain number of tasks needs to be taken into action. Another way of determining the action to be taken is through the green row on each records table. See figure 2.0 for the green row.</i>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="img-container col-md-12">
+                                <h5>Figure 1.2 – Sidebar Menu</h5>
+                                <img src="assets/images/sidebar_menu.png">
+                            </div>    
+                        </div>
+                    </div>
+                    <br />
+                    <div class="img-container col-md-12">
+                        <h5>Figure 2.0 – Light Green row</h5>
+                        <img src="assets/images/light_green.png">
+                    </div> 
+
+                    <hr />
+                    <strong>Setting up the system</strong>
+                    <p>Above all else, a set-up is needed to configure the system thus proceed to Settings Menu. See figure 1.2. You need to add first Department and Branches settings before adding a user’s. You also need to add the product Category before adding the Products.</p>
+
+                    <hr />
+                    <strong>General Settings</strong>
+                    <p>General settings page where you can set the Company Profile, Purchase Order, Print Request, Miscellaneous and the Dashboard.</p>
+
+                    <hr />
+                    <strong>Email Messages</strong>
+                    <p>The Email Messages page where you can set the content of the emails on every process. Once you click the “Edit” button, there you can see the content of the email on that process. Please fill out the “Subject” and the “Message” Content. There are default emails that have been stored for each action item result, but these can be edited anytime necessary. There are shortcodes that you need know to make it dynamic. See shortcodes below.</p>
+                    <u>Shortcodes</u>
+                    <ul>
+                        <li><label>[name_from] </label> - <span>The name of the sender</span></li>
+                        <li><label>[email_from] </label> - <span>The email of the sender</span></li>
+                        <li><label>[name_to] </label> - <span>The Name of the recipient</span></li>
+                        <li><label>[email_to] </label> - <span>The Email of the recipient</span></li>
+                        <li><label>[request_number] </label> - <span>Purchase request number</span></li>
+                        <li><label>[request_name] </label> - <span>Purchase request name/type</span></li>
+                        <li><label>[date_needed] </label> - <span>Purchase request date needed</span></li>
+                        <li><label>[message] </label> - <span>Message of the sender</span></li>
+                        <li><label>[po_num] </label> - <span>Purchase order number</span></li>
+                        <li><label>[po_number] </label> - <span>Purchase order number</span></li>
+                        <li><label>[item_number] </label> - <span>Item ID number</span></li>
+                        <li><label>[item_name] </label> - <span>Item name</span></li>
+                    </ul>
+
+                    <hr />
+                    <strong>Users</strong>
+                    <p>Users page where you can add, edit, deactivate and change the password of the users. Before adding a user, please make sure that the Branch and The Department has been set up already.</p>
+
+                    <ul>
+                        <li><strong>User Type:</strong>
+                            <p>There are 7 kind of user type on this system enumerated below.</p>
+                            <ul>
+                                <li>
+                                    <strong>Administrator</strong> <p>The administrator of this system who has the overall access of the purchasing process.</p>
+                                </li>
+                                <li><strong>General User</strong> 
+                                    <p>The User or the employee of the company.</p>
+                                </li>
+                                <li><strong>Canvasser</strong>
+                                    <p>The canvasser is member of the purchasing department who is responsible for canvassing of the products or items requested.</p>
+                                </li>
+                                <li><strong>Budget</strong>
+                                    <p>The budget is the user type who approves the budget set on the request</p>
+                                </li>
+                                <li><strong>Auditor</strong>
+                                    <p>The role of this user is to audit and verify the Purchase Order.</p>
+                                </li>
+                                <li><strong>Board</strong>
+                                    <p>Board is a special type of user who is only being notified for instances when its approval is highly needed. This is normally for requests of a much greater amount of budget. The board also has the ability to execute most of whatever an administrator user can.</p>
+                                </li>
+                                <li><strong>Property Department</strong>
+                                    <p>This User type is the one who handles the receipt of the orders and in-charge of the inventory of the products or items once delivered by the supplier.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><strong>Branch</strong> <p>This is selected as to which branch the user-type is.</p></li>
+                        <li><strong>Department</strong> <p>This is selected as to which department the user-type is</p></li>
+                        <li><strong>Department Head</strong> <p>This is opted to be checked in the tickbock section if the user added is the head of the department or responsible to approve requests on the said area.</p></li>
+                        <li><strong>First name</strong> <p>First name of the person or user.</p></li>
+                        <li><strong>Last Name</strong> <p>The Last name of the person or user.</p></li>
+                        <li><strong>Phone</strong> <p>Contact number of the user</p></li>
+                        <li><strong>Email</strong> <p>Email address of the user.</p></li>
+                        <li><strong>Password</strong> <p>Enter the desired password that you wanted for that particular user to use. You need to click the “activate” button after you add the user. However, user can also create their own password because after adding the user, an email confirmation will be sent to the user with the credentials created and for them to have the option to create a new password of their own.</p></li>
+                    </ul>
+
+
+                    <hr />
+                    <strong>User Group</strong>
+                    <p>User group has only currently seven (7) user types comprising the purchasing process. You can only edit the description on this selection. The description will appear when you edit the user-type.</p>
+
+                    <hr />
+                    <strong>Department</strong>
+                    <p>This page where you can add, edit and delete the User department. This will also appear when you add a user so this need to setup first before adding the user.</p>
+
+                    <hr />
+                    <strong>Branches</strong>
+                    <p>This page where you can add, edit and delete the branches of the company. This will appear also when you add a user to determine the branch such user is assigned to. This will be configured first before adding the users of this branch.</p>
+
+                    <hr />
+                    <strong>Supplier</strong>
+                    <p>This page where you can add, edit and delete the supplier. The supplier list can be visible in the canvasser page where they can select the preferred supplier for the requested products. Canvasser can enter a supplier that is not yet added on the list as another way to inform the admin of the information for the prospected list of suppliers.</p>
+
+                    <hr />
+                    <strong>Products</strong>
+                    <p>Admin can also add the common products here so that the requisitioner can only select the product they want to request. If the product does not exists yet in the system, a custom product can be entered or created.</p>
+
+                    <hr />
+                    <strong>Product Category</strong>
+                    <p>Admin can add a product category on this page. The category has second level-sub category that can be viewed or created. This will also be set up first before adding a product because this will appear when a product is added.</p>
+
+                    <hr />
+                    <strong>Request Category</strong>
+                    <p>Request category is for admin use to identify where the request is being categorized. This will appear when the admin assign the request to the canvasser.</p>
+
+                    <hr />
+                    <strong>Purchase Order</strong>
+                    <p>You can view in this page all the generated purchase orders. The “Update” button will be disabled once it is already approved by the Auditor</p>
+
+
+                    <hr />
+                    <strong>Request</strong>
+                    <ul>
+                        <li><strong>Request List</strong> – This is where you will find all the requests that all users have created and submitted in the system. Items of each requests can be viewed by clicking the “View Items” button and if you want to go to its further details, just click the link in the request name. The buttons under “Action” button will be different depending on the current status of the request.</li>
+                        <li><strong>Request New</strong> – New purchase requests starts here.</li>
+                        <li><strong>Archived</strong> – This is where all the completed requests can be viewed.</li>
+                    </ul>
+
+                    <hr />
+                    <strong>Head Approval</strong>
+                    <p>This menu or page will appear only if you have been assigned by the admin as a head of the department. As the head approval user you can view all newly submitted requests by your staff or even other department’s staffs if it was assigned to you as a recommending approval.</p>
+
+                    <p>The buttons under “Action” button will be different depending on the current status of the request.</p>
+                    <p>Click the “View Items” button to view the items that are assigned to you. You can also see the items that are assigned to the other head (see <u>Assigned To</u> column). You can only approve and deny items that were assigned to you. Whether approved or denied, it will notify the requisitioner of your action taken. There will be times that requisitioner will response to it and you will be able to view it on the <u>Requisitioner Note</u> column. All items should be approved by all the recommending officer before it will be forwarded to the admin for the next steps process.</p>
+
+                    <hr />
+                    <strong>Board Approval</strong>
+                    <p>This is where you can view request that is greater than the budget limit. Your action to approve for board approval and deny for some other reason necessary.</p>
+
+
+                    <hr />
+                    <strong>Transaction History</strong>
+                    <p>This is where you can view all the transaction records of the request.</p>
+
+                    <hr />
+                    <strong>Reports</strong>
+                    <p>All needed reporting can be viewed in this section.</p>
+                    <ul>
+                        <li><p><strong>Request Reports</strong> – It will show all the Request Reports. There are different filters to choose according to your purpose and preference, that is Branch, Department, Year and Month. You can view them as PDF, Excel and/or print them directly as is.</p></li>
+                        <li><p><strong>Item Reports</strong> – It will show you all the items requested. There are different filters to choose according to your purpose and preference, that is Branch, Department, Year and Month. You can view them as PDF, Excel and/or print them directly as is.</p></li>
+                        <li><p><strong>PO Reports</strong> – It will show you all the Purchase Order records. There are different filters to choose according to your purpose and preference, that is Branch, Department, Year and Month. You can view them as PDF, Excel and/or print them directly as is.</p></li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Contact</h2>
+            <p class="lead">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://codecanyon.net/user/jaystream">here</a>. Thank you so much!</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; <a href="http://www.extremewebevolution.com/">eXWeb</a> 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="assets/js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>

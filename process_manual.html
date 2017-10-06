@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>eXWeb - CodeIgniter Purchasing System</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/scrolling-nav.css" rel="stylesheet">
+    <style type="text/css">
+        img{
+            width: 100%;
+        }
+        .img-container{
+            border: 1px solid black;
+        }
+        p, li{
+            text-align: justify;
+            text-justify: inter-word;
+        }
+    </style>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">eXWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#intro">Introduction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#scope">Scope of Purchasing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#purpose">Purpose</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#theprocess">The Process</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to CodeIgniter Purchasing System</h1>
+        <p class="lead text-center">Documentation By: Abby Luera <small>(abby@extremewebevolution.com)</small></p>
+      </div>
+    </header>
+
+    <section id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Introduction</h2>
+            <p class="lead">Codeigniter Purchasing system is a web-based platform that helps businesses of all sizes elevate their entire procurement process to better manage requisitions, generate purchase orders, and monitor spending with full visibility and control into their respective purchase cycle. It has seamless flow of data and customized workflows. Automating the purchasing functions can make your company competitive in its industry to not be merely transactional but strategic enough to transform the way you do business.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scope">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Scope of Purchasing</h2>
+            <p class="lead">Each employee plays an active role in the purchasing function. Many of them requisition goods and services, while others are directly involved in the purchase of such goods and services. Most of what they use in their daily work, from the paper they write on to the wax on the floors has been acquired through Purchasing. Since everyone is involved in purchasing, the Purchasing Department, in accordance with their own existing policies will determine and clarify what is expected of each involved in the purchase of goods and services.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="purpose">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Purpose of the Purchasing Guide</h2>
+            <p class="lead">This section should be used as a guide by all employees, when requisitioning, purchasing, receiving or approving, payment for goods and services. Statements of purchasing policies and objectives, responsibilities of various individuals and departments, and procedures for the performance of some of the major purchasing functions is the responsibility of the company to disseminate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="theprocess">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>The Process</h2>
+
+            <strong>Flow Chart</strong>
+            <img src="assets/images/CI Purchasing process flow chart.png" />
+
+            <hr />
+            <strong>System Flow Description</strong>
+            <p>User of this system may request for any items needed with the approval of their Department Head. After submission, a Purchase Request number will be generated that will go through several process. Once approved by the respective head department, admin will assign the generated purchase request to the canvasser for necessary canvassing. Once canvassed and no other concern needed from the user, canvasser will forward it back to admin for endorsement to budget, who approves amount presented. Depending on the company's set policy on the purchasing process, there may be an amount set that needs to go through higher approval.  And so the sysytem is designed to standardized it and review is required to generate a PO for this kind of transaction.</p>
+            <p>A purchase order will be generated after it passes through the budget approval. At this point, necessary accounting entries will be formulated once audited by the auditing user. This is almost the end point of the process because once admin receives all necessary approval and endorsement of the generated P.O., it will just then be awaiting delivery for the property user to account accuracy of order processed.</p>
+            <p>Every data entered in the system will be recorded and reports can easily be printed if needed. Email notifications each user will be activated and status of each step taken will be accounted for necessary monitoring and order execution.</p>
+
+            <hr />
+            <strong>Setting up the system</strong>
+            <p>Above all else, a set-up is needed to configure the system thus proceed to Settings Menu. You need to add first Department and Branches settings before adding a user’s. You also need to add the product Category before adding the Products.</p>
+
+            <hr />
+            <strong>General Settings</strong>
+            <p>General settings page where you can set the Company Profile, Purchase Order, Print Request, Miscellaneous and the Dashboard.</p>
+
+            <hr />
+            <strong>Email Messages</strong>
+            <p>The Email Messages page where you can set the content of the emails on every process. Once you click the “Edit” button, there you can see the content of the email on that process. Please fill out the “Subject” and the “Message” Content. There are default emails that have been stored for each action item result, but these can be edited anytime necessary. There are shortcodes that you need know to make it dynamic. See shortcodes below.</p>
+            <u>Shortcodes</u>
+            <ul>
+                <li><label>[name_from] </label> - <span>The name of the sender</span></li>
+                <li><label>[email_from] </label> - <span>The email of the sender</span></li>
+                <li><label>[name_to] </label> - <span>The Name of the recipient</span></li>
+                <li><label>[email_to] </label> - <span>The Email of the recipient</span></li>
+                <li><label>[request_number] </label> - <span>Purchase request number</span></li>
+                <li><label>[request_name] </label> - <span>Purchase request name/type</span></li>
+                <li><label>[date_needed] </label> - <span>Purchase request date needed</span></li>
+                <li><label>[message] </label> - <span>Message of the sender</span></li>
+                <li><label>[po_num] </label> - <span>Purchase order number</span></li>
+                <li><label>[po_number] </label> - <span>Purchase order number</span></li>
+                <li><label>[item_number] </label> - <span>Item ID number</span></li>
+                <li><label>[item_name] </label> - <span>Item name</span></li>
+            </ul>
+
+            <hr />
+            <strong>Users</strong>
+            <p>Users page where you can add, edit, deactivate and change the password of the users. Before adding a user, please make sure that the Branch and The Department has been set up already.</p>
+            <p>Please create at least one user on each 7 user type before using the system and atleast 1 department head on each department you created.</p>
+
+            <ul>
+                <li><strong>User Type:</strong>
+                    <p>There are 7 kind of user type on this system enumerated below.</p>
+                    <ul>
+                        <li>
+                            <strong>Administrator</strong> <p>The administrator of this system who has the overall access of the purchasing process.</p>
+                        </li>
+                        <li><strong>General User</strong> 
+                            <p>The User or the employee of the company.</p>
+                        </li>
+                        <li><strong>Canvasser</strong>
+                            <p>The canvasser is member of the purchasing department who is responsible for canvassing of the products or items requested.</p>
+                        </li>
+                        <li><strong>Budget</strong>
+                            <p>The budget is the user type who approves the budget set on the request</p>
+                        </li>
+                        <li><strong>Auditor</strong>
+                            <p>The role of this user is to audit and verify the Purchase Order.</p>
+                        </li>
+                        <li><strong>Board</strong>
+                            <p>Board is a special type of user who is only being notified for instances when its approval is highly needed. This is normally for requests of a much greater amount of budget. The board also has the ability to execute most of whatever an administrator user can.</p>
+                        </li>
+                        <li><strong>Property Department</strong>
+                            <p>This User type is the one who handles the receipt of the orders and in-charge of the inventory of the products or items once delivered by the supplier.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Branch</strong> <p>This is selected as to which branch the user-type is.</p></li>
+                <li><strong>Department</strong> <p>This is selected as to which department the user-type is</p></li>
+                <li><strong>Department Head</strong> <p>This is opted to be checked in the tickbock section if the user added is the head of the department or responsible to approve requests on the said area.</p></li>
+                <li><strong>First name</strong> <p>First name of the person or user.</p></li>
+                <li><strong>Last Name</strong> <p>The Last name of the person or user.</p></li>
+                <li><strong>Phone</strong> <p>Contact number of the user</p></li>
+                <li><strong>Email</strong> <p>Email address of the user.</p></li>
+                <li><strong>Password</strong> <p>Enter the desired password that you wanted for that particular user to use. You need to click the “activate” button after you add the user. However, user can also create their own password because after adding the user, an email confirmation will be sent to the user with the credentials created and for them to have the option to create a new password of their own.</p></li>
+            </ul>
+
+            <hr />
+            <strong>User Group</strong>
+            <p>User group has only currently seven (7) user types comprising the purchasing process. You can only edit the description on this selection. The description will appear when you edit the user-type.</p>
+
+            <hr />
+            <strong>Department</strong>
+            <p>This page where you can add, edit and delete the User department. This will also appear when you add a user so this need to setup first before adding the user.</p>
+
+            <hr />
+            <strong>Branches</strong>
+            <p>This page where you can add, edit and delete the branches of the company. This will appear also when you add a user to determine the branch such user is assigned to. This will be configured first before adding the users of this branch.</p>
+
+            <hr />
+            <strong>Supplier</strong>
+            <p>This page where you can add, edit and delete the supplier. The supplier list can be visible in the canvasser page where they can select the preferred supplier for the requested products. Canvasser can enter a supplier that is not yet added on the list as another way to inform the admin of the information for the prospected list of suppliers.</p>
+
+            <hr />
+            <strong>Products</strong>
+            <p>Admin can also add the common products here so that the requisitioner can only select the product they want to request. If the product does not exists yet in the system, a custom product can be entered or created.</p>
+
+            <hr />
+            <strong>Product Category</strong>
+            <p>Admin can add a product category on this page. The category has second level-sub category that can be viewed or created. This will also be set up first before adding a product because this will appear when a product is added.</p>
+
+            <hr />
+            <strong>Request Category</strong>
+            <p>Request category is for admin use to identify where the request is being categorized. This will appear when the admin assign the request to the canvasser.</p>
+
+            <hr />
+            <strong>Purchase Order</strong>
+            <p>You can view in this page all the generated purchase orders. The “Update” button will be disabled once it is already approved by the Auditor</p>
+
+            <hr />
+            <strong>Request New</strong>
+            <p>Creating a new request can be done by any of the user type. Creating a new request has a 3 steps.</p>
+            <ul>
+                <li><label>Step 1</label>
+                    <ul>
+                        <li>Request Type – Type or Name of your request</li>
+                        <li>Purpose – Purpose of your request</li>
+                        <li>Date Needed - The date when the request is needed.</li>
+                    </ul>
+                </li>
+                <li>
+                    <label>Step 2</label>
+                    <ul>
+                        <li>Click “Add Item” button. See Figure 1.0</li>
+                        <li>Select and search the product you want. Products can be added in the settings. If the user unable to locate the product on the list, user can simply type the product and click or hit enter. See figure 1.1</li>
+                        <li>Click the “Add” button. See figure 1.1</li>
+                        <li>Input the product description and the quantity.</li>
+                        <li>A “remove item” button is visible for your option to be removed if needed. See figure 1.0.</li>
+                        <li>An “attachment” button is visible if you want to add an attachment necessary for the product or item requested. The files accepted are “gif,jpg,png,zip,zipx,rar,7z,pdf,doc,docx,txt,odt”. See figure 1.0</li>
+                        <li>Attachment window where you can upload, remove, and download the attachment. See figure 1.2</li>
+                        <li>Click next when you’re done.</li>
+                    </ul>
+                </li>
+                <li>
+                    <label>Step 3</label>
+                    <p>Preview of your request. Click File Request when you’re done. You can click “Previous” button when you forgot something. The request will be automatically forwarded to head of your department.</p>
+                </li>
+            </ul>
+
+            <div class="row">
+                <div class="img-container col-md-12">
+                    <h5>Figure 1.0 – Step 2</h5>
+                    <img src="assets/images/step2fig1.0.png">
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="img-container col-md-6">
+                    <h5>Figure 1.1 – Add item window</h5>
+                    <img src="assets/images/fig1.1-add-item-window.png">
+                </div>
+                <div class="img-container col-md-6">
+                    <h5>Figure 1.2 – Attachment window</h5>
+                    <img src="assets/images/Add_attachment_popup.png">
+                </div>
+            </div>
+
+
+            <hr />
+            <strong>Head Approval</strong>
+            <p>Once Request received by the head approval, the head will then click the “Recommending approval” button under action column then you will be redirected to recommending approval page. See figure 2.0</p>
+            <ul>
+                <li><strong>Assigning item to head users</strong> – You can assigned any of the items to any of the head department if necessary. If not, you can just assigned it you yourself. Just select the Head user from the left side section then select the item(s) in the middle section you want to assign to the selected user then click the “assign” button. The assign items now available in the right side portion. See figure 2.0.</li>
+                <li><strong>Deleting assigned head user</strong> – If you have assigned it to the wrong head user, you can also delete it. Just select the head user at the left side portion then click the “Delete as Approving Officer”</li>
+                <li><strong>Review each items</strong> – After assigning to the head users, you can click the “back” button to go back to the list of head approval request.</li>
+                <li><strong>Approving and Denying Items</strong> – Click the “View Items” button to view the items that is assigned to you. See figure 3.1. You can also see the items that is assigned to the other head (see <u>Assigned To</u> column). ). You can only approve and deny items that were assigned to you. Whether approved or denied, it will notify the requisitioner of your action taken. There will be times that requisitioner will response to it and you will be able to view it on the <u>Requisitioner Note</u> column. All items should be approved by all the recommending officer before it will be forwarded to the admin for the next steps process.</li>
+            </ul>
+
+            <div class="row">
+                <div class="img-container">
+                    <div class="row">
+                    <div class="col-md-8">
+                        <h5>Figure 2.0 – Recommending Approval Page</h5>
+                        <img src="assets/images/recommending_approval.png">
+                    </div>
+                    <div class="col-md-4">
+                        <ol>
+                            <li>List of all Head department Users</li>
+                            <li>List of items which you can check if you assigned it to the selected head user.</li>
+                            <li>List of selected items of the selected user</li>
+                        </ol>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="img-container col-md-12">
+                    <h5>Figure 2.1 – Head Approval Item Window</h5>
+                    <img src="assets/images/head_approval_items.png">
+                </div>
+            </div>
+
+            <hr />
+            <strong>Admin Assign to Canvasser</strong>
+            <p>Once approved by the Head/Recommending Officer, the admin can now forward it to requisitioner if they have clarification or forward it to Canvasser if it is good to go. See figure 3.0. When you forward it to canvasser, the popup window ask you the request category and the canvasser you want it to assign.</p>
+
+            <div class="row">
+                <div class="img-container col-md-12">
+                    <h5>Figure 3.0 – Request list</h5>
+                    <img src="assets/images/Request_list.png">
+                </div>
+            </div>
+
+            <hr />
+            <strong>Canvasser</strong>
+            <ul>
+                <li><strong>Update items</strong>
+                    <p>Once it is forwarded to canvasser, the canvasser click the “update items” in the action button to update the items they canvassed and it will be redirected to the <strong>“Product / Items”</strong> page. See figure 4.0</p>
+                    <p>This is the canvassing system, where the canvasser can input up to 4 supplier on each item. Canvasser can put different price on each supplier and so as the quantity.</p>
+                    <p>Each supplier per item has a checkbox. If you tick that box, that means that is your final selection and the total will be automatically computed</p>
+                    <p>The supplier which the canvasser not checked, it will be also included in the print requisition form but it will not total the amount. This purpose only to check for the admin review. </p>
+                    <p>Once you click the update button, you can view the total per supplier by clicking the <strong>Supplier Summary</strong> button at the top right corner. You can now go back to request assigned list page.</p>
+                </li>
+                <li><strong>Print Request</strong> – Print the final canvassed items</li>
+                <li><strong>Supplier Summary</strong> – View the total amount per supplier</li>
+                <li><strong>Forward to Admin</strong> – Once your canvass done, you can now forward to admin</li>
+                <li><strong>Return to Requisitioner</strong> – Return the request to requisitioner if there is clarification</li>
+            </ul>
+
+            <div class="row">
+                <div class="img-container col-md-12">
+                    <h5>Figure 4.0 – Products/Items</h5>
+                    <img src="assets/images/canvass_update_items.png">
+                </div>
+            </div>
+
+
+            <hr />
+            <strong>Admin Assign to Budget</strong>
+            <ul>
+                <li><strong>Print Request</strong> – Admin can print the final request items selected by the canvasser.</li>
+                <li><strong>Supplier Summary</strong> – View the total amount per supplier</li>
+                <li><strong>Assign to Budget</strong> – Admin will assign the request to budget if it is good to proceed.</li>
+                <li><strong>Return to Canvasser</strong> – Admin can return the request to canvasser if clarification is needed.</li>
+            </ul>
+
+            <hr />
+            <strong>Budget</strong>
+            <ul>
+                <li><strong>Print Request</strong> – Budget can print the final request items selected by the canvasser.</li>
+                <li><strong>View Message</strong> – View message/note from admin</li>
+                <li><strong>Approve</strong> – Approve the request. If the total amount is greater than the limit of the budget, it will automatically forwarded to the board for approval</li>
+                <li><strong>Deny</strong> – Deny a request (return to requisitioner).</li>
+            </ul>
+
+
+            <hr />
+            <strong>Board</strong>
+            <ul>
+                <li><strong>Print Request</strong> – Print the final item request</li>
+                <li><strong>Approve</strong> – Approve the request</li>
+                <li><strong>Deny</strong> – Deny a request (return to requisitioner)</li>
+
+            </ul>
+
+            <hr />
+            <strong>Admin - Generate PO</strong>
+            <ul>
+                <li>
+                    <p>When the budget or board approved the request, the admin now can generate PO. Just click the “Generate PO” button under the Action button of the corresponding row of the request.</p>
+                </li>
+                <li><p><strong>Generate PO Page</strong> – After clicking the “Generate PO” button, it will be redirected to the page where you can generate the PO on each supplier. See figure 5.0</p></li>
+                <li><p>Each supplier will generate purchase order. After selecting the Supplier which you want to generate the PO. Please fill up the required fields then click update. The PO will then be forwarded to the selected VP Administrator & Accounting in the Approved by field.</p></li>
+                <li><p>You can enter manually the PO number and PR number. Once you decided to start the auto increment in the certain number, just go to <a href="www.yourdomain.com/settings/console/">www.yourdomain.com/settings/console/</a> . See figure 5.1. You can set the number of PO and PR where you want to start.</p></li>
+                <li>
+                    <p><strong>Partially Done</strong> – Admin can click the “Partially Done” button. If the VP Administration & Accounting approve the PO, all the Items approved, will appear in the window. See figure 5.2. After clicking the “Done” button, it will now appear in the property and waiting when it is delivered</p>
+                </li>
+            </ul>
+
+            <div class="row">
+                <div class="img-container col-md-12">
+                    <h5>Figure 5.0 – Generate PO</h5>
+                    <img src="assets/images/generate_po.png">
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="img-container col-md-6">
+                    <h5>Figure 5.1 – Console</h5>
+                    <img src="assets/images/console_page.png">
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="img-container col-md-12">
+                    <h5>Figure 5.2 – Auditor approved items</h5>
+                    <img src="assets/images/partially_done_item.png">
+                </div>
+            </div>
+
+            <hr />
+            <strong>Auditor</strong>
+            <p>Approve the purchase order generated.</p>
+
+            <hr />
+            <strong>Property</strong>
+            <p><strong>Request Done</strong> – It shows all the PO currently on delivery. They can received the items when it is delivered.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <hr />
+            <h2>Contact</h2>
+            <p class="lead">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://codecanyon.net/user/jaystream">here</a>. Thank you so much!</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; <a href="http://www.extremewebevolution.com/">eXWeb</a> 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="assets/js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
