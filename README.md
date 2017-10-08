@@ -1,6 +1,6 @@
 # CI Purchasing system documentation
 
-This is a complete platform for automating the purchase requisition and PO generation. Built through Codeigniter system, it has the flexibility to be easily integrated and customized workflows in the normal purchasing cycle.  This is a cost effective way to lessen paperworks and improve employee productivity. Spending can easily be monitored  for financial management and reports are readily available for any decision-making.
+This is a complete platform for automating the purchase requisition and PO generation. Built through Codeigniter system, it has the flexibility to be easily integrated and customized workflows of the normal purchasing cycle.  This is a cost effective way to lessen paperworks and improve employee productivity. Spending can easily be monitored  for financial management and reports are readily available for any decision-making purposes.
 
 
 # Purpose of the Purchasing Guide
