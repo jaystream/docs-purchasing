@@ -15,7 +15,7 @@ This section should be used as a guide by all employees, when requisitioning, pu
 ---
 # Features and Functions
 
-Codeigniter purchasing system can carry out the following functions:
+Codeigniter purchasing system can carry out the following features:
 
 - User Management
 	- Add
