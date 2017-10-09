@@ -8,5 +8,5 @@ This section should be used as a guide by all employees, when requisitioning, pu
 
 
 #Flow Chart
-
+test
 ![Flow Chart](http://54.152.61.40/docs/purchasing/assets/images/CI%20Purchasing%20process%20flow%20chart.png)
