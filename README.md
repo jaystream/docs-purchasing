@@ -18,5 +18,5 @@ This section should be used as a guide by all employees, when requisitioning, pu
 Codeigniter purchasing system can carry out the following functions:
 
 - User Management
-..- Add
-..- Edit/Update
+..* Add
+..* Edit/Update
