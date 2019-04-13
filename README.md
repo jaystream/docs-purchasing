@@ -10,7 +10,7 @@ This section should be used as a guide by all employees, when requisitioning, pu
 # Flow Chart
 
 
-![alt text](http://34.201.93.231/docs/purchasing/assets/images/CI%20Purchasing%20process%20flow%20chart.png)
+![alt text](http://35.153.94.185/docs/purchasing/assets/images/CI%20Purchasing%20process%20flow%20chart.png)
 
 ---
 # Features and Functions
