@@ -17,6 +17,7 @@ This section should be used as a guide by all employees, when requisitioning, pu
 
 Codeigniter purchasing system can carry out the following features:
 
+- Multi-Language Support
 - User Management
 	- Add
 	- Edit/Update
